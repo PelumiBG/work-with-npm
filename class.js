@@ -1,5 +1,5 @@
 
-export {default as Student} from "./greet.js"
+export {default as Student} from "./class.js"
 
 export function greet() {
     console.log("Hello Class")

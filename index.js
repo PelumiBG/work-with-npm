@@ -1,11 +1,11 @@
-import {sayHello} from './greet.js'
-import Student from "./greet.js"
-import { jSS1 } from "./greet.js"
+import {sayHello} from './class.js'
+import Student from "./class.js"
+import { jSS1 } from "./class.js"
 import {students, list} from './apk.js'
 
 import colors from 'colors';
 
-const module = await import('./greet.js')
+const module = await import('./class.js')
 console.log(colors.green(`Description: ${module.gigs}`));
 
 sayHello('John Dave');
@@ -62,7 +62,7 @@ stdin.on('data', (nameInput) => {
 });
 
 async function loadModule() {
-    const module = await import('../mymodule/greet.js')
+    const module = await import('./class.js')
     module.greet();
 }
 loadModule();
