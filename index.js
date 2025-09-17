@@ -33,7 +33,7 @@ import chalk from 'chalk';
 import { checkAge } from './ageCheck.js';
 import { formatUserInfo } from './userinfo.js';
 
-console.log(chalk.red('What is your name?'));
+console.log(chalk.red('What is your DOB?'));
 
 // Using process.stdin to get user input
 stdin.on('data', (nameInput) => {
