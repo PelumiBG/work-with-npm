@@ -1,0 +1,49 @@
+// export {greet} from "./greet.js"
+// export {sayHello} from "./greet.js"
+// export {name} from "./greet.js"
+export {default as Student} from "./greet.js"
+// export { gigs } from "./greet.js"
+// export {jSS1} from "./greet.js"
+
+export function greet() {
+    console.log("Hello Class")
+};
+export function sayHello(name) {
+    console.log(`Hello ${name}! hope you are good ?`)
+};
+
+export let gigs = '\nThere is a lot works and job listing on Upwork and fiver but you need to purchase connect'
+
+
+export default class Student {
+    // #water = 0;
+    constructor(water) {
+        return this._water = water;
+    }
+    getWater(amount) {
+        return `${this._water += amount}ml`;
+    }
+    addWater(amount) {
+        this._water += amount;
+        return `${this._water}ml`;
+    }
+    get water() {
+        return `There is ${this._water}ml water inside the bottle`
+    }
+
+    set water(amount) {
+        this._water = amount;
+    }
+  }
+
+export class jSS1 extends Student {
+
+    getWater() {
+        // super()
+        return this._water;
+    }
+    addWater(amount) {
+        this._water += amount;
+        return `JSS1 student fetched ${this._water}ml of water inside the bucket`
+    };
+  };
