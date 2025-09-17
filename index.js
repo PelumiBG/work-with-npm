@@ -2,7 +2,6 @@ import {sayHello} from './greet.js'
 import Student from "./greet.js"
 import { jSS1 } from "./greet.js"
 import {students, list} from './apk.js'
-// import { default as Student } from './greet.js'
 
 import colors from 'colors';
 

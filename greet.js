@@ -1,9 +1,5 @@
-// export {greet} from "./greet.js"
-// export {sayHello} from "./greet.js"
-// export {name} from "./greet.js"
+
 export {default as Student} from "./greet.js"
-// export { gigs } from "./greet.js"
-// export {jSS1} from "./greet.js"
 
 export function greet() {
     console.log("Hello Class")
