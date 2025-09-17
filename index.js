@@ -9,12 +9,6 @@ import colors from 'colors';
 const module = await import('./greet.js')
 console.log(colors.green(`Description: ${module.gigs}`));
 
-async function loadModule() {
-    const module = await import('../mymodule/greet.js')
-    module.greet();
-}
-loadModule();
-
 sayHello('John Dave');
 
 students.introduce();
@@ -67,3 +61,9 @@ stdin.on('data', (nameInput) => {
         process.exit();
     });
 });
+
+async function loadModule() {
+    const module = await import('../mymodule/greet.js')
+    module.greet();
+}
+loadModule();
