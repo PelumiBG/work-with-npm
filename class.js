@@ -5,7 +5,7 @@ export function greet() {
     console.log("Hello Class")
 };
 export function sayHello(name) {
-    console.log(`Hello ${name}! hope you are good ?`)
+    console.log(`Hello ${name}! I hope you are good ?`)
 };
 
 export let gigs = '\nThere is a lot works and job listing on Upwork and fiver but you need to purchase connect'
